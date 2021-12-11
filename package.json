@@ -1,0 +1,25 @@
+{
+  "name": "duck-js-example",
+  "version": "1.0.0",
+  "description": "Example application for testing duck db",
+  "main": "app.js",
+  "scripts": {
+    "build": "webpack",
+    "prestart": "npm run build",
+    "start": "node app.js",
+    "dev": "concurrently --kill-others-on-fail \"npm run build\" \"npm run server\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@duckdb/duckdb-wasm": "^1.11.0",
+    "apache-arrow": "^6.0.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "ts-loader": "^9.2.6",
+    "webpack": "^5.64.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
