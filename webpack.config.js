@@ -49,7 +49,7 @@
 const path = require('path');
 
 module.exports = {
-  target: 'node',
+  target: 'browser',
   mode: 'development',
   entry: './src/index.ts',
   optimization: {
@@ -61,7 +61,11 @@ module.exports = {
   },
   resolve: {
     // Add ".ts" and ".tsx" as resolvable extensions.
-    extensions: [".ts", ".tsx", ".js"],
+     extensions: ['.ts', '.tsx', '.js', '.jsx', '.css'],
+       alias: {
+         'apache-arrow': path.resolve(__dirname, '../../node_modules/apache-arrow/Arrow.esnext.min.js'),
+        },
+     },
   },
   module: {
     rules: [
