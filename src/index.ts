@@ -29,7 +29,7 @@
 
 
 import * as duckdb from '@duckdb/duckdb-wasm';
-import * as arrow from 'apache-arrow';
+// import * as arrow from 'apache-arrow';
 // const duckdb = require('@duckdb/duckdb-wasm');
 // const arrow = require('apache-arrow');
 

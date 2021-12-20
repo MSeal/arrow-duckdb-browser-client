@@ -9,6 +9,7 @@
         "dom"
       ],
       "module": "esnext",
+      "moduleResolution": "node",
       "esModuleInterop": true,
       "strict": true,
       "sourceMap": true
