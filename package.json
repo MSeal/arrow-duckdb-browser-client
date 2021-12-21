@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@apache-arrow/ts": "^6.0.1",
     "@duckdb/duckdb-wasm": "^1.11.0",
     "apache-arrow": "^6.0.1",
     "express": "^4.17.1"

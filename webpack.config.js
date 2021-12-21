@@ -15,7 +15,9 @@ module.exports = {
     // Add ".ts" and ".tsx" as resolvable extensions.
     extensions: ['.ts', '.tsx', '.js', '.jsx', '.css'],
     alias: {
-      'apache-arrow': path.resolve(__dirname, 'node_modules/apache-arrow/Arrow.d.ts'),
+      'apache-arrow': path.resolve(__dirname, 'node_modules/apache-arrow/Arrow.esnext.min.js'),
+      // Doesn't build?
+      // 'apache-arrow': path.resolve(__dirname, 'node_modules/@apache-arrow/ts/Arrow.ts'),
     },
   },
   module: {
