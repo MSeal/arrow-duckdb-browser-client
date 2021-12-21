@@ -13,7 +13,7 @@ module.exports = {
   },
   resolve: {
     // Add ".ts" and ".tsx" as resolvable extensions.
-    extensions: ['.ts', '.tsx', '.js', '.jsx', '.css'],
+    extensions: ['.ts', '.tsx', '.mjs', '.js', '.jsx', '.css'],
     // The below is unnecessary if we set the rule below for mjs files.
     // alias: {
     //   'apache-arrow': path.resolve(__dirname, 'node_modules/apache-arrow/Arrow.esnext.min.js'),
