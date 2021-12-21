@@ -11,6 +11,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: "bundle.js",
   },
+  // This whole section is actually unnecessary
   resolve: {
     // Add ".ts" and ".tsx" as resolvable extensions.
     extensions: ['.ts', '.tsx', '.mjs', '.js', '.jsx', '.css'],
