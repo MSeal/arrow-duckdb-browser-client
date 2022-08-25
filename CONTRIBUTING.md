@@ -19,6 +19,6 @@ Please note we have a [code of conduct](./CODE_OF_CONDUCT.md), please follow it 
 1. Fork this repository.
 2. Clone the forked repository.
 3. Change to the cloned directory.
-4. Ensure [`poetry`](https://python-poetry.org/docs/#installation) is installed.
-5. Run `poetry install`.
-6. Run `nox -s test` to run all tests.
+4. nvm use
+5. npm install
+6. npm start
