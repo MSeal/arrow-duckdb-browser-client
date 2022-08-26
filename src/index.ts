@@ -1,7 +1,5 @@
 import * as duckdb from '@duckdb/duckdb-wasm';
 import * as arrow from 'apache-arrow';
-// const duckdb = require('@duckdb/duckdb-wasm');
-// const arrow = require('apache-arrow');
 
 (async () => {
     // DuckDB
@@ -50,8 +48,6 @@ import * as arrow from 'apache-arrow';
 
       console.log("average:", accum / rainfall.length)
  
-      // TODO manipulate this table with DuckDB
-
     } catch (e) {
         console.error(e);
     }
